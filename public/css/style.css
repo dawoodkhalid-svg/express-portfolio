@@ -247,3 +247,10 @@ footer a:hover {
     color: #F1F1F1;
 }
 
+
+/* this is styling for navigation */
+
+nav a.active {
+    background-color: #E94560;
+    font-weight: bold;
+}
