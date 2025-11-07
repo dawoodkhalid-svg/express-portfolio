@@ -2,7 +2,7 @@
 
 Personal portfolio website built with Node.js, Express.js, and EJS for the INFR3120 Web and Scripting Programming course at Ontario Tech University.
 
-##Live Site:
+## Live Site:
 
 https://express-portfolio-igce.onrender.com/projects
 
