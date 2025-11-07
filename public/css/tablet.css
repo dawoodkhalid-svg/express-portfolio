@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* Tablet styles: targeting screens up to +601px */
+/* Color scheme used: Dark Blue (#1A1A2E), Navy (#16213E), Deep Blue (#0F3460), Accent Red (#E94560), Light Gray (#F1F1F1) */
+/* This stylesheet overrides the main styles to better fit tablet screen sizes */
+
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    color: #1A1A2E;
+    padding: 0;
+    margin: 0;
+    background: #F1F1F1;
+    background: linear-gradient(to bottom, #F1F1F1 0%, #E8E8E8 100%);
+}
+
+#wrapper {
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    background: #16213E;
+    background: linear-gradient(45deg, #16213E 0%, #0F3460 100%);
+    color: #F1F1F1;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 5px;
+}
+
+nav a {
+    display: block;
+    color: #F1F1F1;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #0F3460;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #E94560;
+}
+
+article {
+    padding: 30px;
+}
+
+h1,h2,h3,h4,p,li {
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+h2 {
+    color: #16213E;
+    font-size: 30px;
+    border-bottom: 3px solid #E94560;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+section {
+    margin-top: 25px;
+}
+
+.box {
+    width: 45%;
+    height: auto;
+    min-height: 180px;
+    float: left;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #0F3460;
+    background: radial-gradient(ellipse at center, #F1F1F1 0%, #0F3460 100%);
+}
+
+aside {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+aside img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #0F3460;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #999;
+    color: white;
+}
+
+address {
+    font-style: normal;
+    margin-top: 25px;
+}
+
+address a {
+    color: #0F3460;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    background-color: #1A1A2E;
+    color: #F1F1F1;
+    text-align: center;
+    padding: 25px 15px;
+    clear: both;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #E94560;
+    text-decoration: none;
+}
