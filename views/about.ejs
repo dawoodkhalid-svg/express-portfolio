@@ -1,0 +1,53 @@
+<%- include('partials/header') %>
+
+    <article>
+        <div class="profile">
+            <aside class="profile-photo">
+                <img src="/images/profilephoto.png" alt="My photo" class="photo">
+            </aside>
+            <div class="my-profile-text">
+                <h2>About Dawood</h2>
+                <p>19-year-old student at Ontario Tech University pursuing Networking and IT Security with a focus on
+                    Cybersecurity. My passion lies in understanding how systems work and how to protect them from
+                    emerging threats.</p>
+
+                <p>Beyond academics, I'm deeply interested in entrepreneurship and always looking for ways to turn ideas
+                    into reality. Physical fitness is important to me - I regularly work out and practice combat sports,
+                    which teach me discipline and mental toughness.</p>
+
+                <p>I believe in continuous learning and pushing my boundaries, whether it's mastering a new security
+                    tool, building a business concept, or improving my physical performance.</p>
+            </div>
+        </div>
+
+        <section>
+            <h3>Get to Know Me</h3>
+            <video width="640" height="500" controls poster="/images/previewimage.jpg">
+                <source src="/video/realvidfinal.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="video-caption">Watch this short video to learn more about my journey and interests.</p>
+        </section>
+
+        <section>
+            <h3>Skills & Interests</h3>
+            <div class="box">
+                <h4><i class="fas fa-network-wired"></i> Network Security</h4>
+                <p>Firewalls, VPNs, IDS/IPS</p>
+            </div>
+            <div class="box">
+                <h4><i class="fas fa-code"></i> Web Technologies</h4>
+                <p>HTML5, CSS3, Responsive Design</p>
+            </div>
+            <div class="box">
+                <h4><i class="fas fa-tools"></i> Security Tools</h4>
+                <p>Wireshark, Nmap, Metasploit</p>
+            </div>
+            <div class="box">
+                <h4><i class="fas fa-fist-raised"></i> Combat Sports</h4>
+                <p>Discipline, strategy, resilience</p>
+            </div>
+        </section>
+    </article>
+
+    <%- include('partials/footer') %>
